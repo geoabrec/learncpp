@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "outputStyle": "Explanatory",
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(ls:*)",
+      "Bash(g++:*)",
+      "Bash(c++:*)",
+      "Bash(clang++:*)",
+      "Bash(clang-format --dry-run:*)"
+    ],
+    "ask": [
+      "Bash(rm:*)",
+      "Bash(sudo:*)",
+      "Bash(git push:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git clean:*)",
+      "Bash(git restore:*)",
+      "Bash(git checkout --:*)",
+      "Bash(git branch -D:*)",
+      "Bash(git stash drop:*)",
+      "Bash(git stash clear:*)",
+      "Bash(pacman:*)",
+      "Bash(yay:*)",
+      "Bash(paru:*)",
+      "Bash(scp:*)",
+      "Bash(rsync:*)",
+      "Bash(nc:*)",
+      "Read(~/.ssh/**)",
+      "Read(~/.gnupg/**)",
+      "Read(**/.env*)",
+      "Read(~/.claude/.credentials.json)"
+    ],
+    "deny": [
+      "Edit(**/*.cpp)",
+      "Edit(**/*.cc)",
+      "Edit(**/*.cxx)",
+      "Edit(**/*.h)",
+      "Edit(**/*.hpp)",
+      "Edit(**/*.hh)",
+      "Edit(**/*.hxx)",
+      "NotebookEdit(**/*.cpp)",
+      "Bash(make:*)",
+      "Bash(cmake:*)",
+      "Bash(ninja:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(mkfs:*)"
+    ]
+  }
+}

@@ -18,7 +18,7 @@ projects/
 
 ## Per-lesson loop (notes take about 5 minutes; a guideline, not a limit)
 
-1. Read the lesson and type out the examples into `examples/`.j fdsafsdaf
+1. Read the lesson and type out the examples into `examples/`.
 2. Add a section to `chapter-NN/notes.md` using the template below.
 3. Move on. Don't copy the lesson or write a book.
 

@@ -1,4 +1,4 @@
 root = true
 
-[*.{cpp,h}]
+[*]
 insert_final_newline = true
