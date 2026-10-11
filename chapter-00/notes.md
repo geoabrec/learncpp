@@ -1,17 +1,5 @@
 # Chapter 0 - Introduction/Getting Started
 
-TEMPLATE:
-
-## N.N – Lesson title
-
-**In my own words:** 3–6 sentences. No copy-pasting.
-
-**Key concepts/terms:** concepts/term – short definition
-
-**Gotchas / mistakes I made:** things that broke or surprised me
-
-**Open questions:** things I didn't fully get
-
 ---
 
 ## 0.1 – Introduction to these tutorials
@@ -42,13 +30,3 @@ We can divide them, roughly, in three types: syntax errors, runtime errors, and 
 **Gotchas / mistakes I made:** No coding on this lesson.
 
 **Open questions:** No open questions for this lesson.
-
-## 0.2 – Introduction to programs and programming languages
-
-**In my own words:** 3–6 sentences. No copy-pasting.
-
-**Key concepts/terms:** concepts/term – short definition
-
-**Gotchas / mistakes I made:** things that broke or surprised me
-
-**Open questions:** things I didn't fully get
