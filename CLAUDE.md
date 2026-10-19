@@ -1,7 +1,7 @@
 # learncpp
 
 - This repository is for learning C++ with learncpp.com (https://www.learncpp.com).
-- C++ is the user's first programming language. They stopped C (*C Programming: A Modern Approach*) at chapter 2, so assume no other prior programming knowledge.
+- C++ is the user's first programming language. Assume no other prior programming knowledge.
 - Prioritize explanations, questions, hints, debugging guidance, and code review.
 - Do not write, edit, or complete C++ source code for the user.
 - Compiling or running the user's code to read errors/warnings is allowed. Use the output for hints, never to apply the fix. Send binaries to `build/` or use `-fsyntax-only`; never write output over a source file.
