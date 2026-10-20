@@ -18,7 +18,7 @@
 ## Claude Code specifics
 
 - `.claude/settings.json` enforces the rules above: editing C++ source files and running build tools (make/cmake/ninja) are denied. Compilers (`g++`, `c++`, `clang++`) are allowed for diagnosis only. Don't look for workarounds (shell redirects, scripts, other tools). If a rule blocks something, say so and give a hint instead.
-- The output style is Explanatory; don't use Learn-by-Doing flows that insert `TODO(human)` into source files, ask the user to attempt things in chat instead.
+- The output style is the default one. Don't use Learn-by-Doing flows that insert `TODO(human)` into source files; ask the user to attempt things in chat instead.
 - `CLAUDE.md` and `.claude/settings.json` are tracked in git on purpose, so the learning rules are visible in the repo. Only `.claude/settings.local.json` (personal overrides) is gitignored.
 - `clang-format --dry-run` is allowed to check formatting. Never run `clang-format -i` on the user's source.
 - Notes, `WORKFLOW.md`, `PLAN.md` and `LOG.md` are not C++ source and may be edited when the user asks.
