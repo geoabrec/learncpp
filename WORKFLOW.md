@@ -45,12 +45,12 @@ projects/
 
 ## End of chapter
 
-- Ask for active recall questions on the chapter, answered in chat.
-- Ask for a mock exam when the chapter feels done.
+- Ask for active recall questions on the chapter (`study`), answered in chat.
+- Ask for a mock exam when the chapter feels done (`test`).
 - Fix notes where answers revealed gaps.
 
 ## Pet projects
 
 - Start one only after a chapter whose concepts it uses. Keep it small.
-- Write `PLAN.md` first (with help). Then code it myself.
-- When stuck, update `LOG.md` and ask for a hint, not a solution.
+- Write `PLAN.md` first, with help (`grill`). Then code it myself.
+- When stuck, update `LOG.md` and ask for a hint (`debug`), not a solution.
