@@ -42,7 +42,6 @@
       "Edit(**/*.hpp)",
       "Edit(**/*.hh)",
       "Edit(**/*.hxx)",
-      "NotebookEdit(**/*.cpp)",
       "Bash(make:*)",
       "Bash(cmake:*)",
       "Bash(ninja:*)",
