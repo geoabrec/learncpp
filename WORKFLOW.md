@@ -1,10 +1,11 @@
 # Workflow (MVP)
 
-Goal: learn C++ from learncpp.com. Don't make this system "better" until it has been used for a full chapter.
+Goal: learn C++ from learncpp.com. Don't make this system "better" until it has
+been used for a full chapter.
 
 ## Layout
 
-```
+```text
 chapter-NN/
   notes.md        one file per chapter, one `##` heading per lesson
   examples/       code typed out from lessons
@@ -39,9 +40,12 @@ projects/
 ## Rules
 
 1. Write in my own words.
-2. Don't polish every lesson. Change the template or fix notes only when there's a real error, a gap, or a reason to improve the system.
-3. Fill in "Gotchas" and "Open questions" when something applies; "none" is fine. They drive recall questions and mock exams.
-4. Code goes in `examples/` or `quizzes/`. Notes only get a tiny snippet when it clarifies a point.
+2. Don't polish every lesson. Change the template or fix notes only when there's
+   a real error, a gap, or a reason to improve the system.
+3. Fill in "Gotchas" and "Open questions" when something applies; "none" is
+   fine. They drive recall questions and mock exams.
+4. Code goes in `examples/` or `quizzes/`. Notes only get a tiny snippet when it
+   clarifies a point.
 
 ## End of chapter
 
